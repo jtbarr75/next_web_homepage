@@ -116,3 +116,106 @@ nav li {
   flex: 1;
   margin-right: 10px;
 }
+
+/* Sections */
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+}
+
+.latest,
+.invest {
+  margin-top: 100px;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px;
+}
+
+.flex-item {
+  flex-basis: 25%;
+  max-width: 25%;
+  padding: 12px;
+  /* background-color: #ccc; */
+}
+
+/* Latest Section */
+
+.heading {
+  font-size: 28px;
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+.latest-img {
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 50%;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+/* Invest Section */
+
+.invest header,
+.invest-links {
+  display: flex;
+}
+
+.invest header {
+  justify-content: space-between;
+}
+
+.invest-links li{
+  margin-left: 8px;
+}
+
+.invest-item {
+  background: #fffaf8;
+}
+
+.invest-header {
+  position: relative;
+}
+
+.invest-img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.invest-name,
+.invest-info {
+  padding: 10px 16px 10px 84px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.invest-name {
+  background-color: #f42;
+  color: #fff;
+}
+
+.invest-info {
+  background-color: rgba(255, 68, 34, .08);
+  color: #000;
+}
+
+.invest-info h5 {
+  font-size: 12px;
+}
