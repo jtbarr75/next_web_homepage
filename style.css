@@ -40,10 +40,6 @@ a {
 
 /* Nav */
 
-nav {
-  
-}
-
 .nav-top,
 .nav-mid,
 .nav-bottom,
@@ -126,7 +122,8 @@ nav li {
 
 .latest,
 .invest,
-.deals {
+.deals,
+footer {
   margin-top: 100px;
 }
 
@@ -343,4 +340,43 @@ nav li {
   left: -65px;
   width: 80px;
   transform: rotate(45deg);
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+.footer-nav {
+  background-color: #131313;
+  padding:  20px;
+  margin: 0 auto;
+  max-width: 1192;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.footer-social li {
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background: #555;
+  margin: 0 10px;
+}
+
+.footer-links li {
+  font-size: 13px;
+  color: #aaa;
+  text-transform: uppercase;
+}
+
+.copywrite {
+  padding: 40px;
+  background-color: #000;
+  color: #aaa;
 }
