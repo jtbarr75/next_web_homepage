@@ -120,8 +120,7 @@ a {
   background-color: #fd3;
   color: #000;
   text-overflow: ellipsis;
-  text-align: center;
-  padding: 0 6px;
+  padding-left: 10px;
 }
 
 .nav-mobile {
@@ -185,11 +184,18 @@ main {
   }
 
   .nav-top a {
+    color: hsla(0,0%,100%,.6);
+  }
+  .nav-top a:hover {
     color: #fff;
   }
 
   .nav-mid a {
-    color: #555;
+    color: #aaa;
+    text-transform: uppercase;
+  }
+  .nav-mid a:hover {
+    color: #000;
   }
 
   main {
@@ -289,7 +295,16 @@ main {
 
 .featured-byline {
   font-size: 13px;
-  color: hsla(0, 0%, 100%, 0.6)
+  color: hsla(0, 0%, 100%, 0.6);
+  display: flex;
+}
+
+.featured-byline li {
+  margin-right: 5px;
+}
+.featured-byline li:hover {
+  margin-right: 5px;
+  color: #fff;
 }
 
 .featured-category {
@@ -374,6 +389,9 @@ footer {
   line-height: 1.1;
   margin-bottom: 20px;
 }
+.heading:hover {
+  color: #000;
+}
 
 .latest-item {
   position: relative;
@@ -417,6 +435,10 @@ footer {
   font-size: 14px;
   line-height: 20px;
   font-weight: 700;
+}
+.latest-title:hover {
+  color: #f42;
+  text-decoration: underline;
 }
 
 .latest-byline {
@@ -533,6 +555,10 @@ footer {
   padding: 10px;
 }
 
+.invest-tags a:hover {
+  color: #000;
+}
+
 .invest-news {
   border-top: 1px solid rgba(255,68,34,.25);
 }
@@ -617,6 +643,9 @@ footer {
   line-height: 1.1;
   margin-bottom: 6px;
 }
+.category-popular-header h3:hover {
+  text-decoration: underline;
+}
 
 .category-popular-header h5 {
   font-size: 13px;
@@ -659,9 +688,18 @@ footer {
   width: 96px;
 }
 
+.category-headlines {
+  list-style-type: disc;
+  padding: 0 10px;
+  margin:  0 10px;
+}
+
 .category-headlines li {
   border-bottom: 1px solid #eee;
-  padding: 6px 0 6px 14px;
+  padding: 6px 0 6px 5px;
+}
+.category-headlines li:hover {
+  color: #000;
 }
 
 .category-headlines h4 {
